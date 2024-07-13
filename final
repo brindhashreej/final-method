@@ -1,0 +1,25 @@
+class engineering
+{
+    final int sem=7;
+    final void print()
+    {
+        System.out.println(sem+"th sem");
+    }
+}
+class IT extends engineering
+{
+    void print1()
+    {
+        System.out.println("IT");
+    }
+}
+class main
+{
+    public static void main(String[]args)
+    {
+        IT it=new IT();
+        System.out.println(it.sem);
+        it.print();
+        it.print1();
+    }
+}
